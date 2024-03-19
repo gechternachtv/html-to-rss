@@ -158,7 +158,7 @@ func rssHandler(w http.ResponseWriter, r *http.Request) {
         Channel: Channel{
             Title:       title,
             Link:        url,
-            Description: "ibhub server!",
+            Description: "rss from html!",
             Image:       Image{URL: faviconURL},
             Items:       items,
         },
